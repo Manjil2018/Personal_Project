@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	background:url(https://i.imgur.com/PWejzqB.jpg); 
+	
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	
+}
+
+
+.heading  {
+	background-color: #666666;
+	opacity: 0.9;
+	color: white;
+	padding: 15px 32px;
+    display:block;
+    font-size: 50px;
+    margin:100px 2px;
+    cursor:grab;
+	font-family: "aguafina-script";
+	position: absolute;
+	top: 10px;
+    right:110px;
+	border-radius: 3px;
+	/*filter: blur(5px);
+	-webkit-filter: blur(5px);
+z-index: 1; */
+	
+
+}
+
+ .aus {
+    background-color:darkgray;opacity:0.9;
+    border: groove #700F3A;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    cursor: pointer;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	position: absolute;
+	top: 400px;
+    right:250px;
+    width: 300px;
+    height: 75px;
+	border-radius: 6px;
+	 transition-duration: 0.4s;
+}
+
+
+
+.usa{
+	 background-color:darkgray; opacity: 0.9;
+    border:groove #700F3A;
+	color: white;
+    text-shadow: 2px 2px 4px #000000;
+
+        
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+	
+    cursor: pointer;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	position:absolute;
+	top: 400px;
+    right:700px;
+    width: 300px;
+    height: 75px;
+	border-radius: 6px;
+	transition-duration: 0.4s;
+	
+}
+.usa:hover{
+	font-size: 21px;
+}
+.usa:hover, .aus:hover {
+    background-color: #f44336;
+    color:ghostwhite;
+	
+}
+.middle {
+	color:white; 
+	background-color: #666666; 
+	opacity: 0.9;
+	background-size:absolute;
+	position:absolute;
+	top: 225px;
+    right: 350px;
+	font-size: 40px;
+	padding: 10px;
+	border-radius: 3px;
+	
+}
+
