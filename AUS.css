@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* for navigation bar*/
+ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #333;
+	border: thick;
+	border-color: black;
+	display:block;
+}
+li1 {
+    float: left;
+	margin: 2px;
+}
+
+li1 a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 15px 24px;
+    text-decoration: none;
+	font-size: 20px;
+	border-bottom:  solid #555;
+	
+}
+/* for navigation bar */
+li1 a:hover {
+    background-color:brown;
+	color: whitesmoke;
+}
+.active {
+	background: #A52A2A;
+	color: whitesmoke;
+}
+/*for entire page*/
+body {
+	background-image: url(australia-ink-2-flag.jpg);
+	background-position:top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+ 
+	}
+ /*for listed item*/
+ul{
+	font-size: 22px;
+	
+}
+li {
+	margin:8px;
+}
+li:hover{
+	background-color: dimgray;
+	color: white;
+	
+}
+
+/*for headings*/
+
+/*p4, p5, p6, p7 {
+	padding: 15px;
+	text-align: center;
+	text-decoration: underline;
+}*/
+h1, h2, h3{
+	font-size: 40px;
+	background-color:burlywood;
+	font-language-override: normal;
+	font-style: italic;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+.dropbtn {
+    background-color: #333;
+	font-language-override: normal;
+	color: white;
+   padding: 22px 0 22px 0;
+    font-size: 23px;
+    cursor: pointer;
+	box-shadow: 0px 20px 20px 11px rgba(0,0,0,0.2);
+	text-align: center;
+	opacity: 0.8;
+	width: 100%;
+	display:inline-block;
+	margin-bottom: 2px;
+	
+	
+	
+}
+
+.dropbtn:hover {
+    background-color:brown;
+	color: white;
+}
+
+h1:hover, h2:hover{
+	text-decoration: underline;
+	
+}
+

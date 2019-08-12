@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background:url(46833770-u-s-a-wallpaper1.jpg);
+	background-blend-mode: lighten;
+	background-attachment:fixed;
+	background-position:top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	
+}
+p1:hover{
+	background:#E7E7E7;
+}
+.footer{ 
+	   
+       position:relative;     
+       text-align: center;    
+       bottom: 0px; 
+       width: 100%;
+   }  
+li1 {
+    list-style-type: none;
+    	margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #333;
+	border: thick;
+	border-color: black;
+	display:block;
+	position: fixed;
+    top: 0;
+	width: 100%;
+	
+}
+
+li1 {
+    float: right;
+	margin: 0;
+}
+
+li1 a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 15px 24px;
+    text-decoration: none;
+	font-size: 20px;
+	border-bottom:  solid #555;
+	
+}
+/* for navigation bar */
+li1 a:hover {
+    background-color:brown;
+	color: whitesmoke;
+}
